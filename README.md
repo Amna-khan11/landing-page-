@@ -1,37 +1,45 @@
-Poor Naming Conventions:
+This project is a responsive and accessible landing page built using modern HTML, CSS, and JavaScript. It features a dark/light theme toggle, client-side form validation, and an interactive task manager. The goal is to demonstrate proficiency in web development best practices, including accessibility, performance optimization, and clean code.
 
-The variable themeChangerBtn could be renamed to themeToggle for simplicity.
+Features
+Semantic & Accessible Landing Page:
 
-CSS variables like --bg-color and --text-color could be renamed to --background and --text for better readability.
+Built with semantic HTML5 tags and ARIA attributes.
 
-Redundant Logic:
+Responsive design using CSS Grid and Flexbox.
 
-The theme toggle logic checks localStorage twice. This can be simplified by combining the logic into a single function.
+Dark/light theme toggle with localStorage support.
 
-Hardcoded Values:
+Interactive Task Manager:
 
-The max-width: 300px for the form is hardcoded. Consider using relative units like em or rem for better responsiveness.
-Accessibility Improvements
-Form Labels:
+Supports CRUD operations (Create, Read, Update, Delete).
 
-Add aria-describedby to form inputs for additional context (e.g., "Enter your full name").
+Drag-and-drop functionality for reordering tasks.
 
-Theme Toggle Button:
+Undo/redo functionality using a stack-based approach.
+Performance Optimization:
 
-Replace the emoji with a text label like "Toggle Dark Mode" for better accessibility.
+Reduced Cumulative Layout Shift (CLS) by adding explicit dimensions to images.
 
-Error Messages:
+Implemented lazy-loading for images and scripts.
 
-Use aria-live="polite" to ensure error messages are announced clearly to screen readers.
+Minified CSS and JavaScript files for faster load times.
 
-Performance Improvements
-Lazy-Loading:
+Debugging & Optimization:
 
-Add loading="lazy" to images for better initial load performance.
+Fixed issues like memory leaks, redundant logic, and improper asynchronous handling.
 
-Minify CSS and JavaScript:
-Minify style.css and script.js to reduce file size.
+Improved accessibility by adding ARIA labels and roles.
+Tools Used
+Lighthouse: For performance auditing and accessibility testing.
 
-Reduce Unused Code:
+Chrome DevTools: For debugging and identifying unused code.
 
-Use the Coverage Tool to identify and remove unused CSS and JavaScript.
+CSSNano: For minifying CSS files.
+
+Terser: For minifying JavaScript files.
+
+Git: For version control and collaboration.
+
+Hi! I'm Amna khan, a passionate web developer with a strong interest in building accessible, responsive, and performant web applications. This project reflects my skills in modern web development, including HTML, CSS, JavaScript, and performance optimization.
+
+Skills: HTML5, CSS3, JavaScript, React, Node.js, Git, and more.
